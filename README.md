@@ -1,3 +1,23 @@
+linux-server-automation/
+│
+├── basic/
+│   ├── create_users.sh
+│   ├── set_permissions.sh
+│   ├── install_packages.sh
+│   └── system_info.sh
+│
+├── intermediate/
+│   ├── automate_backup.sh
+│   ├── log_cleanup.sh
+│   ├── check_service_status.sh
+│   └── performance_monitor.sh
+│
+└── advanced/
+    ├── custom_systemd_service.sh
+    ├── ssh_hardening.sh
+    ├── lvm_setup.sh
+    ├── firewall_setup.sh
+    └── logrotate_config.sh
 
 ## Level 1 – Basic (Foundational Skills)
 
