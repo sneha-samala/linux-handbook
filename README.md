@@ -459,3 +459,5 @@ sudo logrotate -d /etc/logrotate.d/appx
 
 ---
 *(End of comprehensive setup simulation)*
+
+![alt text](image.png)
