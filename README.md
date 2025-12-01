@@ -1,5 +1,4 @@
 
-
 ## Level 1 – Basic (Foundational Skills)
 
 This level establishes the core prerequisites for security and development.
