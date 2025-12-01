@@ -19,6 +19,7 @@ linux-server-automation/
     ├── firewall_setup.sh
     └── logrotate_config.sh
 
+
 ## Level 1 – Basic (Foundational Skills)
 
 This level establishes the core prerequisites for security and development.
