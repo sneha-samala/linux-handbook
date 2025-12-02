@@ -18,7 +18,7 @@ linux-server-automation/
     ├── lvm_setup.sh
     ├── firewall_setup.sh
     └── logrotate_config.sh
-
+    
 
 ## Level 1 – Basic (Foundational Skills)
 
@@ -477,8 +477,113 @@ EOF
 # Run logrotate in debug mode to ensure the configuration is valid
 sudo logrotate -d /etc/logrotate.d/appx
 ```
+    
+WHAT IS LINUX 
+Linux is an open-source operating system (OS) kernel that controls how software and hardware work together. It is the core part of many operating systems called Linux distributions (Ubuntu, CentOS, RedHat, Kali, amazon linux etc.).
+
+Key Points
+
+Open Source – Free to use, modify, and distribute.
+
+Kernel-Based – Linux kernel controls hardware and system resources.
+
+Multi-User – Many users can work at the same time.
+
+Multitasking – Can run multiple programs efficiently.
+
+Secure – Strong permissions and fewer viruses.
+
+Stable – Rarely crashes; used in servers and cloud.
+
+Portable – Runs on many devices (computers, servers, mobiles).
+
+Command-Line Friendly – Mostly controlled by shell commands.
+
+Key Points in Theory
+
+Why we use Linux? 
+
+Because it is secure, stable, fast, free, and ideal for servers, development, networking, and cloud environments.
 
 ---
-*(End of comprehensive setup simulation)*
+Here are the **most commonly used and dynamic command-line commands for a DevOps engineer** (short and useful):
 
-![alt text](image.png)
+---
+
+## **⚙️ DevOps Dynamic Command-Line Cheat Sheet**
+
+### **1. System & Process Management**
+
+* `top` / `htop` – Live process monitoring
+* `ps aux` – List running processes
+* `systemctl status <service>` – Check service status
+* `journalctl -u <service>` – View service logs
+
+### **2. File & Directory Operations**
+
+* `ls -l` – Long listing
+* `du -sh *` – Check folder sizes quickly
+* `find /path -name "*.log"` – Find files by pattern
+* `grep -i "error" file.log` – Search text dynamically
+
+### **3. Networking Commands**
+
+* `ping <IP>` – Connectivity test
+* `curl -I <URL>` – Check website headers
+* `netstat -tulpn` – Check open ports
+* `ss -lntp` – Modern port check
+* `scp file user@host:/path` – Secure copy
+
+### **4. Package Management**
+
+* **RHEL/CentOS:** `yum install <pkg>`(yellowdog updater,modified)
+* **Ubuntu:** `apt install <pkg>`(advance package tool)
+
+### **5. Disk & Storage**
+
+* `df -h` – Check disk usage
+* `du -sh .` – Size of current directory
+* `fdisk -l` – List disks
+* `mount /dev/xvdf /data` – Mount disk
+
+### **6. Git (Most Used in DevOps)**
+
+* `git clone <repo>`
+* `git status`
+* `git pull`
+* `git add .`
+* `git commit -m "msg"`
+* `git push`
+
+### **7. Docker**
+
+* `docker ps` – Running containers
+* `docker images` – List images
+* `docker logs <container>` – View logs
+* `docker exec -it <container> bash` – Enter container
+* `docker-compose up -d` – Start services
+
+### **8. Kubernetes (k8s)**
+
+* `kubectl get pods`
+* `kubectl describe pod <name>`
+* `kubectl logs <pod>`
+* `kubectl apply -f file.yaml`
+* `kubectl get svc`
+
+### **9. AWS CLI**
+
+* `aws s3 ls`
+* `aws ec2 describe-instances`
+* `aws logs tail /var/log --follow`
+
+### **10. Automation / Scripting**
+
+* `chmod +x script.sh` – Make script executable
+* `crontab -e` – Schedule tasks
+* `bash script.sh` – Run script
+
+---
+
+
+
