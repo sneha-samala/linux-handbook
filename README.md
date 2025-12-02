@@ -499,7 +499,6 @@ Portable – Runs on many devices (computers, servers, mobiles).
 
 Command-Line Friendly – Mostly controlled by shell commands.
 
-Key Points in Theory
 
 Why we use Linux? 
 
